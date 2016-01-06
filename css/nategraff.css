@@ -24,7 +24,7 @@ a {
 	padding: 0;
 }
 .site-link {
-	height: 342px;
+	height: 356px;
 	width: 330px;
 	padding: 12px;
 	margin: 12px;
@@ -38,7 +38,6 @@ a {
 }
 .site-link img {
 	height: 324px;
-	-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 footer {
 	font-size: 12px;
