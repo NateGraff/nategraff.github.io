@@ -56,6 +56,7 @@ footer {
 	.links {
 		width: 768px;
 		margin: 0;
+		left: 0;
 	}
 	.site-link {
 		position: relative;
