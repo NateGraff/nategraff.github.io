@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Spartan';
+	src: url("../fonts/leaguespartan-bold.woff2");
+	/* https://www.theleagueofmoveabletype.com/league-spartan */
+}
+body {
+	padding-top: 12px;
+	font-family: 'Spartan', 'Arial';
+	margin: 24px;
+}
+#logo_header {
+	text-align: center;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	margin-top: 12px;
+	margin-left: 12px;
+}
+li a {
+	font-size: 24px;
+	line-height: 48px;
+}
+footer {
+	font-size: 12px;
+	color: gray;
+	margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+	body {
+		width: 768px;
+		margin: auto;
+	}
+	footer {
+		margin-top: 0px;
+	}
+	footer:before {
+		content: url("../img/n_line.png");
+	}
+}
