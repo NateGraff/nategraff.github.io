@@ -240,14 +240,9 @@ sup {
 
 /* Links */
 a {
-    color: var(--color-secondary);
+    color: var(--color-text);
     font-weight: bold;
     text-decoration: none;
-}
-
-a:hover {
-    filter: brightness(var(--hover-brightness));
-    text-decoration: underline;
 }
 
 a b,
